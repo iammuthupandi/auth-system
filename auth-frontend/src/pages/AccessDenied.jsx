@@ -1,0 +1,9 @@
+export default function AccessDenied() {
+  return (
+    <div className="min-h-screen flex items-center justify-center">
+      <h2 className="text-xl font-bold text-red-600">
+        🚫 Access Denied
+      </h2>
+    </div>
+  );
+}
